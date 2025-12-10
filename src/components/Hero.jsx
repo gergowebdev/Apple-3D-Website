@@ -4,6 +4,7 @@ import { heroVideo, smallHeroVideo } from "../utils";
 import { useEffect, useState } from "react";
 
 const Hero = () => {
+    // we had to figure out the width of the screen
     const [videoSrc, setVideoSrc] = useState(
         window.innerWidth < 760 ? smallHeroVideo : heroVideo
     );
