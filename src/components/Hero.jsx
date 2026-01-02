@@ -48,6 +48,7 @@ const Hero = () => {
                     </video>
                 </div>
             </div>
+
             <div
                 id="cta"
                 className="flex flex-col items-center opacity-0 translate-y-20"
